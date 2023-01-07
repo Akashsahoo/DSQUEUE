@@ -58,7 +58,8 @@ class CircularQueue:
                  self.start +=  1
                  return data
         else:
-            print("queue is empty")
+            return "queue is empty"
+
 
 
             
@@ -81,6 +82,13 @@ circularqueue.enqueue(21)
 circularqueue.print()
 circularqueue.enqueue(22)
 circularqueue.print()
+
+print(circularqueue.dequeue())
+print(circularqueue.dequeue())
+print(circularqueue.dequeue())
+print(circularqueue.dequeue())
+print(circularqueue.dequeue())
+print(circularqueue.dequeue())
 
 
 
