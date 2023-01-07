@@ -30,6 +30,6 @@ queue.enqueue(5)
 queue.enqueue(6)
 print(queue)
 print(queue.dequeue())
-print(queue)
+print(queue.peek())
 
 
