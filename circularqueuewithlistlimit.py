@@ -89,6 +89,11 @@ print(circularqueue.dequeue())
 print(circularqueue.dequeue())
 print(circularqueue.dequeue())
 print(circularqueue.dequeue())
+circularqueue.enqueue(1)
+circularqueue.enqueue(2)
+circularqueue.enqueue(3)
+circularqueue.enqueue(4)
+circularqueue.print()
 
 
 
